@@ -210,6 +210,8 @@ def once():
     if len(last) == len(SYMBOLS):
         eq = write_results(state, last)
         print(f"Αξία: {eq:.2f}€ ({(eq / START_CASH - 1) * 100:+.2f}%)")
+    else:
+        raise SystemExit("Αποτυχία λήψης τιμών — δες τα μηνύματα παραπάνω")
 
 
 def live():
