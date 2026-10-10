@@ -1,0 +1,21 @@
+{
+  "started": {
+    "time": "2026-10-10T09:17+03:00",
+    "prices": {
+      "BTCEUR": 73882.4,
+      "ETHEUR": 2228.53
+    }
+  },
+  "accounts": {
+    "BTCEUR": {
+      "cash": 500.0,
+      "qty": 0.0,
+      "last_candle": 1791612900000
+    },
+    "ETHEUR": {
+      "cash": 500.0,
+      "qty": 0.0,
+      "last_candle": 1791612900000
+    }
+  }
+}
