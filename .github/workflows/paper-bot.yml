@@ -1,0 +1,36 @@
+name: paper-bot
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"     # κάθε 15 λεπτά (το GitHub μπορεί να καθυστερήσει λίγα λεπτά)
+  workflow_dispatch:            # κουμπί «Run workflow» για χειροκίνητο τρέξιμο
+
+permissions:
+  contents: write
+
+concurrency:
+  group: paper-bot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Run bot once
+        run: python paper_bot.py --once
+
+      - name: Save state
+        run: |
+          git config user.name "paper-bot"
+          git config user.email "paper-bot@users.noreply.github.com"
+          git add -A paper_state.json paper_trades.csv paper_equity.csv RESULTS.md 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "paper run $(date -u +%F_%H:%M)" && git push)
