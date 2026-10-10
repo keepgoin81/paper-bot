@@ -10,12 +10,12 @@
     "BTCEUR": {
       "cash": 500.0,
       "qty": 0.0,
-      "last_candle": 1791612900000
+      "last_candle": 1791635400000
     },
     "ETHEUR": {
-      "cash": 500.0,
-      "qty": 0.0,
-      "last_candle": 1791612900000
+      "cash": 0.0,
+      "qty": 0.22360410229936775,
+      "last_candle": 1791635400000
     }
   }
 }
