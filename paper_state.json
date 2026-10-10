@@ -8,14 +8,14 @@
   },
   "accounts": {
     "BTCEUR": {
-      "cash": 500.0,
-      "qty": 0.0,
-      "last_candle": 1791635400000
+      "cash": 0.0,
+      "qty": 0.006725690068595021,
+      "last_candle": 1791652500000
     },
     "ETHEUR": {
       "cash": 0.0,
       "qty": 0.22360410229936775,
-      "last_candle": 1791635400000
+      "last_candle": 1791652500000
     }
   }
 }
