@@ -12,38 +12,38 @@
       "accounts": {
         "BTCEUR": {
           "cash": {
-            "hi": 500.0,
-            "lo": 500.0
-          },
-          "qty": {
             "hi": 0.0,
             "lo": 0.0
           },
-          "last_candle": 1792833300000,
-          "entry_ts": 0,
-          "entry_eur": 0.0
+          "qty": {
+            "hi": 0.00691619621746635,
+            "lo": 0.006927289865534467
+          },
+          "last_candle": 1792847700000,
+          "entry_ts": 1792845900000,
+          "entry_eur": 499.99999999999994
         },
         "ETHEUR": {
           "cash": {
-            "hi": 500.0,
-            "lo": 500.0
-          },
-          "qty": {
             "hi": 0.0,
             "lo": 0.0
           },
-          "last_candle": 1792833300000,
-          "entry_ts": 0,
-          "entry_eur": 0.0
+          "qty": {
+            "hi": 0.23572673218702414,
+            "lo": 0.2361048402286274
+          },
+          "last_candle": 1792847700000,
+          "entry_ts": 1792846800000,
+          "entry_eur": 499.99999999999994
         }
       },
       "stats": {
-        "trades": 0,
+        "trades": 2,
         "closed": 0,
         "wins": 0,
         "fees": {
-          "hi": 0.0,
-          "lo": 0.0
+          "hi": 2.5,
+          "lo": 0.9
         }
       }
     },
@@ -58,7 +58,7 @@
             "hi": 0.0,
             "lo": 0.0
           },
-          "last_candle": 1792832400000,
+          "last_candle": 1792846800000,
           "entry_ts": 0,
           "entry_eur": 0.0
         },
@@ -71,7 +71,7 @@
             "hi": 0.0,
             "lo": 0.0
           },
-          "last_candle": 1792832400000,
+          "last_candle": 1792846800000,
           "entry_ts": 0,
           "entry_eur": 0.0
         }
@@ -97,7 +97,7 @@
             "hi": 0.0,
             "lo": 0.0
           },
-          "last_candle": 1792828800000,
+          "last_candle": 1792843200000,
           "entry_ts": 0,
           "entry_eur": 0.0
         },
@@ -110,7 +110,7 @@
             "hi": 0.0,
             "lo": 0.0
           },
-          "last_candle": 1792828800000,
+          "last_candle": 1792843200000,
           "entry_ts": 0,
           "entry_eur": 0.0
         }
@@ -136,7 +136,7 @@
             "hi": 0.0,
             "lo": 0.0
           },
-          "last_candle": 1792832400000,
+          "last_candle": 1792846800000,
           "entry_ts": 0,
           "entry_eur": 0.0
         },
@@ -149,7 +149,7 @@
             "hi": 0.0,
             "lo": 0.0
           },
-          "last_candle": 1792832400000,
+          "last_candle": 1792846800000,
           "entry_ts": 0,
           "entry_eur": 0.0
         }
