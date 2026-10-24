@@ -1,21 +1,168 @@
 {
+  "version": 2,
   "started": {
-    "time": "2026-10-10T09:17+03:00",
+    "time": "2026-10-24T09:47+03:00",
     "prices": {
-      "BTCEUR": 73882.4,
-      "ETHEUR": 2228.53
+      "BTCEUR": 72064.1,
+      "ETHEUR": 2121.54
     }
   },
-  "accounts": {
-    "BTCEUR": {
-      "cash": 357.4521962063124,
-      "qty": 0.0,
-      "last_candle": 1792823400000
+  "strategies": {
+    "A": {
+      "accounts": {
+        "BTCEUR": {
+          "cash": {
+            "hi": 500.0,
+            "lo": 500.0
+          },
+          "qty": {
+            "hi": 0.0,
+            "lo": 0.0
+          },
+          "last_candle": 1792824300000,
+          "entry_ts": 0,
+          "entry_eur": 0.0
+        },
+        "ETHEUR": {
+          "cash": {
+            "hi": 500.0,
+            "lo": 500.0
+          },
+          "qty": {
+            "hi": 0.0,
+            "lo": 0.0
+          },
+          "last_candle": 1792824300000,
+          "entry_ts": 0,
+          "entry_eur": 0.0
+        }
+      },
+      "stats": {
+        "trades": 0,
+        "closed": 0,
+        "wins": 0,
+        "fees": {
+          "hi": 0.0,
+          "lo": 0.0
+        }
+      }
     },
-    "ETHEUR": {
-      "cash": 403.4292037520901,
-      "qty": 0.0,
-      "last_candle": 1792823400000
+    "B": {
+      "accounts": {
+        "BTCEUR": {
+          "cash": {
+            "hi": 500.0,
+            "lo": 500.0
+          },
+          "qty": {
+            "hi": 0.0,
+            "lo": 0.0
+          },
+          "last_candle": 1792821600000,
+          "entry_ts": 0,
+          "entry_eur": 0.0
+        },
+        "ETHEUR": {
+          "cash": {
+            "hi": 500.0,
+            "lo": 500.0
+          },
+          "qty": {
+            "hi": 0.0,
+            "lo": 0.0
+          },
+          "last_candle": 1792821600000,
+          "entry_ts": 0,
+          "entry_eur": 0.0
+        }
+      },
+      "stats": {
+        "trades": 0,
+        "closed": 0,
+        "wins": 0,
+        "fees": {
+          "hi": 0.0,
+          "lo": 0.0
+        }
+      }
+    },
+    "C": {
+      "accounts": {
+        "BTCEUR": {
+          "cash": {
+            "hi": 500.0,
+            "lo": 500.0
+          },
+          "qty": {
+            "hi": 0.0,
+            "lo": 0.0
+          },
+          "last_candle": 1792814400000,
+          "entry_ts": 0,
+          "entry_eur": 0.0
+        },
+        "ETHEUR": {
+          "cash": {
+            "hi": 500.0,
+            "lo": 500.0
+          },
+          "qty": {
+            "hi": 0.0,
+            "lo": 0.0
+          },
+          "last_candle": 1792814400000,
+          "entry_ts": 0,
+          "entry_eur": 0.0
+        }
+      },
+      "stats": {
+        "trades": 0,
+        "closed": 0,
+        "wins": 0,
+        "fees": {
+          "hi": 0.0,
+          "lo": 0.0
+        }
+      }
+    },
+    "D": {
+      "accounts": {
+        "BTCEUR": {
+          "cash": {
+            "hi": 500.0,
+            "lo": 500.0
+          },
+          "qty": {
+            "hi": 0.0,
+            "lo": 0.0
+          },
+          "last_candle": 1792821600000,
+          "entry_ts": 0,
+          "entry_eur": 0.0
+        },
+        "ETHEUR": {
+          "cash": {
+            "hi": 500.0,
+            "lo": 500.0
+          },
+          "qty": {
+            "hi": 0.0,
+            "lo": 0.0
+          },
+          "last_candle": 1792821600000,
+          "entry_ts": 0,
+          "entry_eur": 0.0
+        }
+      },
+      "stats": {
+        "trades": 0,
+        "closed": 0,
+        "wins": 0,
+        "fees": {
+          "hi": 0.0,
+          "lo": 0.0
+        }
+      }
     }
   }
 }
