@@ -2,7 +2,7 @@ name: paper-bot
 
 on:
   schedule:
-    - cron: "*/15 * * * *"     # κάθε 15 λεπτά (το GitHub μπορεί να καθυστερήσει λίγα λεπτά)
+    - cron: "*/15 * * * *"     # κάθε 15 λεπτά (στην πράξη το GitHub το τρέχει αραιότερα· τα κεριά που χάθηκαν αναπληρώνονται)
   workflow_dispatch:            # κουμπί «Run workflow» για χειροκίνητο τρέξιμο
 
 permissions:
@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install requests
+      - run: pip install requests matplotlib
 
       - name: Run bot once
         run: python paper_bot.py --once
@@ -32,5 +32,5 @@ jobs:
         run: |
           git config user.name "paper-bot"
           git config user.email "paper-bot@users.noreply.github.com"
-          for f in paper_state.json paper_trades.csv paper_equity.csv RESULTS.md; do if [ -f "$f" ]; then git add "$f"; fi; done
+          git add -A
           git diff --cached --quiet || (git commit -m "paper run $(date -u +%F_%H:%M)" && git push)
